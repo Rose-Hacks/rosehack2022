@@ -2,6 +2,10 @@ body {
     background-color: #D5E5E2;
 }
 
+.section{
+    margin-left: 3%;
+}
+
 #hanim {
     /*TEMPORARY: remove when hero animation is complete*/
     text-align: center;
@@ -14,9 +18,9 @@ body {
 	    grid-template-columns: 50% 50%;
 	margin: auto;
 }
-#abvol .box{
+/* #abvol .box{
     margin: 3%;
-}
+} */
 
 #FAQ .row {
 	display: -ms-grid;
@@ -25,9 +29,9 @@ body {
 	    grid-template-columns: 100%;
 	margin: auto;
 }
-#FAQ .box{
-    margin-left: 3%;
-}
+/* #FAQ {
+    margin-left: 1.5%;
+} */
 #FAQ .question {
-    font-weight: 30;
+    font-weight: bold;
 }
