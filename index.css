@@ -1,1 +1,18 @@
-#hello
+body {
+    background-color: #D5E5E2;
+}
+
+#hanim {
+    /*TEMPORARY: remove when hero animation is complete*/
+    text-align: center;
+}
+#abvol .row {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 50% 50%;
+	    grid-template-columns: 50% 50%;
+	margin: auto;
+}
+#abvol .box{
+    margin: 3%;
+}
