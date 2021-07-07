@@ -1,9 +1,21 @@
+/*FONTS*/
+@font-face {
+	font-family: 'Poppins', sans-serif;
+	src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Courgette', cursive;
+	src: url(Courgette-Regular.ttf);
+}
+
 body {
     background-color: #D5E5E2;
 }
 
 .section{
     margin-left: 3%;
+    margin-right: 3%;
 }
 
 #hanim {
@@ -28,6 +40,7 @@ body {
 	-ms-grid-columns: 100%;
 	    grid-template-columns: 100%;
 	margin: auto;
+    font-family: 'Poppins', sans-serif;
 }
 /* #FAQ {
     margin-left: 1.5%;
@@ -35,3 +48,15 @@ body {
 #FAQ .question {
     font-weight: bold;
 }
+#FAQ {
+    background-color: #F9C4BC;
+    padding: 3%;
+    border-radius: 5%;
+}
+#FAQ h2 {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 29px;
+    font-weight: bold;
+}
+
