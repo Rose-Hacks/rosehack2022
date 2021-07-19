@@ -1,26 +1,78 @@
 /*FONTS*/
 @font-face {
-	font-family: 'Poppins', sans-serif;
-	src: url(Poppins-Regular.ttf);
+	font-family: 'Roboto', sans-serif;
+	src: url(Fonts/Roboto/Roboto-Regular.ttf);
+    src: url(Fonts/Roboto/Roboto-Bold.ttf)
 }
 
 @font-face {
-	font-family: 'Courgette', cursive;
-	src: url(Courgette-Regular.ttf);
+	font-family: 'Yellowtail', cursive;
+	src: url(Fonts/Yellowtail/Yellowtail-Regular.ttf);
 }
 
 body {
-    background-color: #D5E5E2;
+    /* background: linear-gradient(#312244,#3e1f47,#4d194d); */
+    /* background: #ffd97d; */
+    background: #000000;
+}
+
+
+h1, h2{
+    font-family: 'Yellowtail', cursive;
 }
 
 .section{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom:3%;
+    /* color:rgb(67, 61, 78); */
+    color:#e2d0d6;
 }
 
-#hanim {
+#neon-text {
+    border-radius: 0.8em;
+    margin-left:36%; 
+    margin-right:36%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family: 'Yellowtail', cursive;
     /*TEMPORARY: remove when hero animation is complete*/
     text-align: center;
+    font-size:4em;
+}
+
+.button_help {
+	/* background-color: #b56576;  */
+    background-color: #532e3c; 
+	/* opacity:0.3; */
+    border: 0.15em solid #c9adb7;
+    box-shadow: 0 0 1em #ff91bb;
+	border-radius: 8px;
+	padding: 3% 2%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.8em;
+	font-family: 'Yellowtail', cursive;
+	font-weight: normal;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	width: 90%;
+    min-height: 30%;
+	margin-left: 5%;
+    margin-right: 5%;
+    color:#e2d0d6;
+}
+
+#abvol .row_buttons{
+    padding-top: 6%;
+    padding-bottom:6%;
+}
+
+#abvol {
+    font-family: 'Roboto', sans-serif;
+    
+
 }
 
 #abvol .row {
@@ -30,9 +82,26 @@ body {
 	    grid-template-columns: 50% 50%;
 	margin: auto;
 }
-/* #abvol .box{
-    margin: 3%;
-} */
+#abvol .box_aboutus{
+    background-color: #532e3c;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 1em;
+    border: 0.15em solid #c9adb7;
+    box-shadow: 0 0 1em #ff91bb;
+} 
+p .box_aboutus{
+    line-height: 1em;
+}
+
+#abvol h2{
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
 
 #FAQ .row {
 	display: -ms-grid;
@@ -40,23 +109,50 @@ body {
 	-ms-grid-columns: 100%;
 	    grid-template-columns: 100%;
 	margin: auto;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: 'Roboto', sans-serif;}
 /* #FAQ {
     margin-left: 1.5%;
 } */
 #FAQ .question {
-    font-weight: bold;
+    font-size: 1em;
 }
 #FAQ {
-    background-color: #F9C4BC;
-    padding: 3%;
+    background-color: #532e3c;
+    /* border-width: 5px;
+    border-style: solid;
     border-radius: 5%;
+    border-color: #ffd97d; */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 1em;
+    border: 0.15em solid #c9adb7;
+    box-shadow: 0 0 1em #ff91bb;
 }
 #FAQ h2 {
     text-align: center;
-    font-family: 'Courgette', cursive;
-    font-size: 29px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
     font-weight: bold;
 }
 
+#organizers {
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 1em;
+    border: 0.15em solid #c9adb7;
+    box-shadow: 0 0 1em #ff91bb;
+}
+
+#sponsors {
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 1em;
+    border: 0.15em solid #c9adb7;
+    box-shadow: 0 0 1em #ff91bb;
+}
