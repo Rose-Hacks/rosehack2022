@@ -13,7 +13,7 @@
 body {
     /* background: linear-gradient(#312244,#3e1f47,#4d194d); */
     /* background: #ffd97d; */
-    background: #bad3dd;
+    background: #000000;
 
     margin:0;
 
@@ -53,11 +53,8 @@ h1, h2{
 }
 
 .button_help {
-	/* background-color: #b56576;  */
-    background:linear-gradient(#f9c4bc,#f5dca6);
-	/* opacity:0.3; */
-    border: 0.05em solid #f5dfdb;
-    box-shadow: 0 0 0.5em #f9c4bc;
+	border: 0.05em solid #f7b3a9;
+    box-shadow: 0 0 0.5em #f7b3a9;
 	border-radius: 8px;
 	padding: 3% 2%;
 	text-align: center;
@@ -71,14 +68,14 @@ h1, h2{
 	width: 80%;
     min-height: 40%;
 	margin-left: 8%;
-    margin-top:1%;
+    margin-top:2%;
     margin-right: 5%;
     color:#fffff0;
 }
 
 .button_help:hover {
 	/* background-color: #043482; */
-	color: #000000;
+	color: #f7b3a9;
 }
 
 .button_help:hover { 
@@ -109,14 +106,14 @@ h1, h2{
 	margin: auto;
 }
 #abvol .box_aboutus{
-    background:linear-gradient(#f9c4bc,#f5dca6);
+    /* background:linear-gradient(#f9c4bc,#f5dca6); */
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.05em solid #f5dfdb;
-    box-shadow: 0 0 1.5em #f9c4bc;
+    border: 0.15em solid #f7b3a9;
+    box-shadow: 0 0 1.5em #f7b3a9;
     transition: 0.70s;
   -webkit-transition: 0.70s;
   -moz-transition: 0.70s;
@@ -159,7 +156,7 @@ p .box_aboutus{
 
 #FAQ .row:hover { 
     transform: scale(1.04); 
-    color: #000000;
+    color: #f7b3a9;
 }
 
 #FAQ .question {
@@ -172,17 +169,14 @@ p .box_aboutus{
     
 }
 
-#FAQ {
-    /* background-color: #f9c4bc; */
-    background:linear-gradient(#f9c4bc,#f5dca6);
-    
+#FAQ {    
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.05em solid #f5dfdb;
-    box-shadow: 0 0 1.5em #f9c4bc;
+    border: 0.15em solid #f7b3a9;
+    box-shadow: 0 0 1.5em #f7b3a9;
 }
 
 #FAQ h2 {
