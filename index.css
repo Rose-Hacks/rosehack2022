@@ -13,7 +13,11 @@
 body {
     /* background: linear-gradient(#312244,#3e1f47,#4d194d); */
     /* background: #ffd97d; */
-    background: #abc2cb;
+    background: #bad3dd;
+
+    margin:0;
+
+    
 }
 
 
@@ -52,8 +56,8 @@ h1, h2{
 	/* background-color: #b56576;  */
     background:linear-gradient(#f9c4bc,#f5dca6);
 	/* opacity:0.3; */
-    border: 0.1em solid #f7b3a9;
-    /* box-shadow: 0 0 1.5em #ecc777; */
+    border: 0.05em solid #f5dfdb;
+    box-shadow: 0 0 0.5em #f9c4bc;
 	border-radius: 8px;
 	padding: 3% 2%;
 	text-align: center;
@@ -66,14 +70,15 @@ h1, h2{
 	cursor: pointer;
 	width: 80%;
     min-height: 40%;
-	margin-left: 5%;
+	margin-left: 8%;
+    margin-top:1%;
     margin-right: 5%;
     color:#fffff0;
 }
 
 .button_help:hover {
-	background-color: #043482;
-	color: white;
+	/* background-color: #043482; */
+	color: #000000;
 }
 
 .button_help:hover { 
@@ -92,7 +97,8 @@ h1, h2{
 
 #abvol .about_text {
     font-size:1.2em;
-    color:#fffff0;
+    
+
 }
 
 #abvol .row {
@@ -111,7 +117,25 @@ h1, h2{
     border-radius: 1em;
     border: 0.05em solid #f5dfdb;
     box-shadow: 0 0 1.5em #f9c4bc;
+    transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
 } 
+
+#abvol .box_aboutus:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
 p .box_aboutus{
     line-height: 1em;
 }
@@ -130,10 +154,21 @@ p .box_aboutus{
 	    grid-template-columns: 100%;
 	margin: auto;
     font-family: 'Roboto', sans-serif;
+    transition: all .3s ease-in-out; 
+}
+
+#FAQ .row:hover { 
+    transform: scale(1.04); 
+    color: #000000;
 }
 
 #FAQ .question {
     font-size: 1.5em;
+    
+}
+
+#FAQ .ans {
+    font-size: 1.3em;
     
 }
 
@@ -146,7 +181,7 @@ p .box_aboutus{
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.25em solid #f7b3a9;
+    border: 0.05em solid #f5dfdb;
     box-shadow: 0 0 1.5em #f9c4bc;
 }
 
@@ -181,7 +216,7 @@ p .box_aboutus{
   width: 100%;
   z-index: 0;
   margin: 0;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
 }
