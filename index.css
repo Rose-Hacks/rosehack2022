@@ -148,6 +148,8 @@ p .box_aboutus{
 }
 
 #FAQ .row {
+    padding-right:2%;
+    padding-left:2%;
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 100%;
@@ -159,7 +161,7 @@ p .box_aboutus{
 
 #FAQ .row:hover { 
     transform: scale(1.04); 
-    color: #f7b3a9;
+    background: #fdeda7;
 }
 
 #FAQ .question {
