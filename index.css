@@ -13,8 +13,7 @@
 body {
     /* background: linear-gradient(#312244,#3e1f47,#4d194d); */
     /* background: #ffd97d; */
-    background: #000000;
-
+    background: #d2f1e4;
     margin:0;
 
     
@@ -29,15 +28,18 @@ h1, h2{
     margin-left: 7%;
     margin-right: 7%;
     margin-bottom:3%;
-    /* color:rgb(67, 61, 78); */
-    color:#fffff0;
+    /* color:#ffbc0a; */
+    color:#f3585e;
 }
 
 .titles {
     font-size: 4em;
-    color:#fffff0;
+    color:#f3585e;
     font-family: 'Yellowtail', cursive;
     text-align: center;
+    /* background: #ffd95c; */
+    margin:2%;
+    /* border: 1px solid #f3585e; */
 }
 
 #neon-text {
@@ -53,8 +55,8 @@ h1, h2{
 }
 
 .button_help {
-	border: 0.05em solid #f7b3a9;
-    box-shadow: 0 0 0.5em #f7b3a9;
+	border: 0.2em solid #f3585e;
+    /* box-shadow: 0 0 0.5em #f7b3a9; */
 	border-radius: 8px;
 	padding: 3% 2%;
 	text-align: center;
@@ -70,12 +72,14 @@ h1, h2{
 	margin-left: 8%;
     margin-top:2%;
     margin-right: 5%;
-    color:#fffff0;
+    color:#f3585e;
+    background: #fdeda7;
 }
 
 .button_help:hover {
-	/* background-color: #043482; */
-	color: #f7b3a9;
+	background: #f3585e; 
+	color: #fdeda7;
+    border: 0.2em solid #fdeda7;
 }
 
 .button_help:hover { 
@@ -106,14 +110,13 @@ h1, h2{
 	margin: auto;
 }
 #abvol .box_aboutus{
-    /* background:linear-gradient(#f9c4bc,#f5dca6); */
+    background:#fdeda7;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.15em solid #f7b3a9;
-    box-shadow: 0 0 1.5em #f7b3a9;
+    border: 0.5em dashed #f3585e;
     transition: 0.70s;
   -webkit-transition: 0.70s;
   -moz-transition: 0.70s;
@@ -121,7 +124,7 @@ h1, h2{
   -o-transition: 0.70s;
 } 
 
-#abvol .box_aboutus:hover{
+/* #abvol .box_aboutus:hover{
     transition: 0.70s;
     -webkit-transition: 0.70s;
     -moz-transition: 0.70s;
@@ -132,7 +135,7 @@ h1, h2{
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
-}
+} */
 p .box_aboutus{
     line-height: 1em;
 }
@@ -169,14 +172,21 @@ p .box_aboutus{
     
 }
 
+#FAQ .titles {
+    background:#f3585e;
+    color: #fdeda7;
+    border-radius:1em;
+    border: 0.2em solid #fdeda7;
+}
+
 #FAQ {    
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.15em solid #f7b3a9;
-    box-shadow: 0 0 1.5em #f7b3a9;
+    /* border: 0.15em solid #f7b3a9;
+    box-shadow: 0 0 1.5em #f7b3a9; */
 }
 
 #FAQ h2 {
