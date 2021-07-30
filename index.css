@@ -124,18 +124,6 @@ h1, h2{
   -o-transition: 0.70s;
 } 
 
-/* #abvol .box_aboutus:hover{
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-} */
 p .box_aboutus{
     line-height: 1em;
 }
@@ -187,6 +175,8 @@ p .box_aboutus{
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
+    border-bottom:0.15em solid #f3585e;
+    border-left:0.15em solid #f3585e;
     /* border: 0.15em solid #f7b3a9;
     box-shadow: 0 0 1.5em #f7b3a9; */
 }
@@ -198,6 +188,30 @@ p .box_aboutus{
     font-weight: bold;
 }
 
+#sponsors {
+    background: #fdeda7;
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 1em;
+    border: 0.4em solid #f3585e;
+    box-shadow: 0 0 0 1.1em #fdeda7; 
+    
+}
+#sponsors .row{
+    grid-template-columns: 33% 34% 33%;
+    display:grid;
+    padding-bottom: 2%;
+    margin:auto;
+}
+#sponsors span{
+    margin:auto;
+}
+
+
+
+
 #organizers {
 	padding-left: 5%;
     padding-right: 5%;
@@ -208,14 +222,31 @@ p .box_aboutus{
     box-shadow: 0 0 1.5em #f7b3a9;
 }
 
-#sponsors {
-	padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    border-radius: 1em;
-    border: 0.15em solid #f7b3a9;
-    box-shadow: 0 0 1.5em #f7b3a9;
+#team .record:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#team .row{
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    display:grid;
+    margin:auto;
+}
+
+#team span{
+    margin:auto;
+    
+}
+#team .record{
+    width:100%;
 }
 
 .bg_footer{
@@ -225,4 +256,56 @@ p .box_aboutus{
   background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
+}
+
+/* CSS FOR PHONE SCREENS */
+@media only screen and (max-width: 1024px) {
+    #abvol .row {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 100%;
+            grid-template-columns: 100%;
+        margin: auto;
+    }
+    #abvol span{
+        margin-bottom: 10%;
+    }
+    #abvol .about_text{
+        text-align: center;
+    }
+    .button_help {
+        border: 0.2em solid #f3585e;
+        /* box-shadow: 0 0 0.5em #f7b3a9; */
+        border-radius: 8px;
+        padding: 3% 2%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2em;
+        font-family: 'Yellowtail', cursive;
+        font-weight: normal;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 95%;
+        min-height: 40%;
+        
+        margin-top:2%;
+        margin:auto;
+        color:#f3585e;
+        background: #fdeda7;
+    }
+
+    #sponsors .row{
+        grid-template-columns: 50% 50%;
+        display:grid;
+        padding-bottom: 2%;
+        margin:auto;
+    }
+
+    #team .row{
+        grid-template-columns: 33% 34% 33%;
+        display:grid;
+        margin:auto;
+    }
+
 }
