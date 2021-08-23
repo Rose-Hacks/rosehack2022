@@ -1,13 +1,15 @@
 /*FONTS*/
 @font-face {
 	font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+    src: url(Fonts/Poppins-Regular.ttf); */
 	src: url(Fonts/Roboto/Roboto-Regular.ttf);
     src: url(Fonts/Roboto/Roboto-Bold.ttf)
 }
 
 @font-face {
-	font-family: 'Poppins', sans-serif;
-	src: url(Fonts/Poppins-Regular.ttf);
+    font-family: 'Yellowtail', cursive;
+	src:url(Fonts/Yellowtail/Yellowtail-Regular.ttf);
 }
 
 body {
