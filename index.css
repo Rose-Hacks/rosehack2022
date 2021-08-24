@@ -57,6 +57,7 @@ h1, h2{
 
 .section{
     margin-left: 7%;
+    margin-top: 5%;
     margin-right: 7%;
     margin-bottom:3%;
     /* color:#ffbc0a; */
@@ -266,13 +267,18 @@ p .box_aboutus{
 
 
 #organizers {
+    background: #f3585e;
 	padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.15em solid #f3585e;
-    box-shadow: 0 0 1.5em #f3585e;
+    border: 0.4em solid #fdeda7;
+    box-shadow: 0 0 0 1.1em #f3585e; 
+}
+
+#organizers .titles{
+    color: #fdeda7;
 }
 
 #organizers .row{
