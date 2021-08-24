@@ -273,12 +273,12 @@ p .box_aboutus{
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.4em solid #fdeda7;
+    border: 0.4em solid #d2f1e4;
     box-shadow: 0 0 0 1.1em #f3585e; 
 }
 
 #organizers .titles{
-    color: #fdeda7;
+    color: #d2f1e4;
 }
 
 #organizers .row{
@@ -312,6 +312,15 @@ p .box_aboutus{
 	width: 30%;
 }
 
+#team{
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    font-size: 1.3em;
+}
+
 #team .record:hover{
     transition: 0.70s;
     -webkit-transition: 0.70s;
@@ -337,6 +346,11 @@ p .box_aboutus{
 }
 #team .record{
     width:100%;
+    margin-bottom:1%;
+}
+
+footer{
+    margin-top:5%;
 }
 
 .bg_footer{
