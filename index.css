@@ -57,7 +57,7 @@ h1, h2{
 
 .section{
     margin-left: 7%;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-right: 7%;
     margin-bottom:3%;
     /* color:#ffbc0a; */
@@ -351,16 +351,54 @@ p .box_aboutus{
 
 footer{
     margin-top:5%;
+    background-image: url("Assets/footer2.png");
+    background-size: 100% 100%;
+  
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
-.bg_footer{
+footer #footer{
+    background: #f3585e;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:8%;
+    padding-right:8%;
+    margin-top: 5%;
+    margin-bottom:5%;
+    margin-left: 30%;
+    margin-right:30%;
+    border-radius: 1em;
+    border: 0.4em solid #f3585e;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#footer .icons{
+    grid-template-columns: 25% 25% 25% 25%;
+    display:grid;
+    margin:auto;
+}
+
+#footer span{
+    margin:auto;
+    text-align: center;
+    color:#fdeda7;
+    
+}
+
+#footer a{
+    color:#fdeda7;
+    width:120%;
+    
+}
+/* .bg_footer{
   width: 100%;
   z-index: 0;
   margin: 0;
   background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
-}
+} */
 
 /* CSS FOR PHONE SCREENS */
 @media only screen and (max-width: 1024px) {
