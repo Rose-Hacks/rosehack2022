@@ -1,10 +1,13 @@
 /*FONTS*/
 @font-face {
 	font-family: 'Roboto', sans-serif;
-    /* font-family: 'Poppins', sans-serif;
-    src: url(Fonts/Poppins-Regular.ttf); */
 	src: url(Fonts/Roboto/Roboto-Regular.ttf);
     src: url(Fonts/Roboto/Roboto-Bold.ttf)
+}
+
+@font-face {
+     font-family: 'Poppins', sans-serif;
+    src: url(Fonts/Poppins-Regular.ttf); 
 }
 
 @font-face {
@@ -14,8 +17,8 @@
 
 @font-face {
     font-family: 'harlow_solidregular';
-    src: url(Fonts/) format('woff2'),
-         url('harlow-webfont.woff') format('woff');
+    src: url(Fonts/Harlow/harlow-webfont.woff2) format('woff2'),
+         url(Fonts/Harlow/harlow-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -73,7 +76,7 @@ h1, h2{
     margin-right:36%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
-    font-family: 'Yellowtail', cursive;
+    font-family: 'harlow_solidregular';
     /*TEMPORARY: remove when hero animation is complete*/
     text-align: center;
     font-size:4em;
@@ -88,7 +91,7 @@ h1, h2{
 	text-decoration: none;
 	display: inline-block;
 	font-size: 2em;
-	font-family: 'Yellowtail', cursive;
+	font-family: 'harlow_solidregular';
 	font-weight: normal;
 	transition-duration: 0.4s;
 	cursor: pointer;
@@ -118,7 +121,7 @@ h1, h2{
 }
 
 #abvol {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #abvol .about_text {
@@ -189,7 +192,7 @@ p .box_aboutus{
 	-ms-grid-columns: 100%;
 	    grid-template-columns: 100%;
 	margin: auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: all .3s ease-in-out; 
 }
 
