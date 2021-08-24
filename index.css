@@ -271,8 +271,39 @@ p .box_aboutus{
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.15em solid #f7b3a9;
-    box-shadow: 0 0 1.5em #f7b3a9;
+    border: 0.15em solid #f3585e;
+    box-shadow: 0 0 1.5em #f3585e;
+}
+
+#organizers .row{
+    padding-right:2%;
+    padding-left:2%;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 50% 50%;
+	    grid-template-columns: 50% 50%;
+	margin: auto;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#organizers span{
+    margin:auto;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+#organizers span:hover { 
+    transform: scale(1.1); 
+    /* background: #fdeda7; */
+}
+
+#organizers .organizerIcon{
+    width: 40%;
+}
+
+/* circle makes it look larger */
+#organizers #wincIcon {
+	width: 30%;
 }
 
 #team .record:hover{
