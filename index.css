@@ -63,6 +63,7 @@ h1, h2{
 
 .section{
     margin-left: 7%;
+    margin-top: 7%;
     margin-right: 7%;
     margin-bottom:3%;
     /* color:#ffbc0a; */
@@ -153,7 +154,7 @@ h1, h2{
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.5em dashed #f3585e;
+    /* border: 0.5em dashed #f3585e; */
     transition: 0.70s;
   -webkit-transition: 0.70s;
   -moz-transition: 0.70s;
@@ -272,13 +273,58 @@ p .box_aboutus{
 
 
 #organizers {
+    background: #f3585e;
 	padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border: 0.15em solid #f7b3a9;
-    box-shadow: 0 0 1.5em #f7b3a9;
+    border: 0.4em solid #d2f1e4;
+    box-shadow: 0 0 0 1.1em #f3585e; 
+}
+
+#organizers .titles{
+    color: #d2f1e4;
+}
+
+#organizers .row{
+    padding-right:2%;
+    padding-left:2%;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 50% 50%;
+	    grid-template-columns: 50% 50%;
+	margin: auto;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#organizers span{
+    margin:auto;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+#organizers span:hover { 
+    transform: scale(1.1); 
+    /* background: #fdeda7; */
+}
+
+#organizers .organizerIcon{
+    width: 40%;
+}
+
+/* circle makes it look larger */
+#organizers #wincIcon {
+	width: 30%;
+}
+
+#team{
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    font-size: 1.3em;
 }
 
 #team .record:hover{
@@ -306,16 +352,59 @@ p .box_aboutus{
 }
 #team .record{
     width:100%;
+    margin-bottom:1%;
 }
 
-.bg_footer{
+footer{
+    margin-top:5%;
+    background-image: url("Assets/footer2.png");
+    background-size: 100% 100%;
+  
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+footer #footer{
+    background: #f3585e;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:8%;
+    padding-right:8%;
+    margin-top: 5%;
+    margin-bottom:5%;
+    margin-left: 30%;
+    margin-right:30%;
+    border-radius: 1em;
+    border: 0.4em solid #f3585e;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#footer .icons{
+    grid-template-columns: 25% 25% 25% 25%;
+    display:grid;
+    margin:auto;
+}
+
+#footer span{
+    margin:auto;
+    text-align: center;
+    color:#fdeda7;
+    
+}
+
+#footer a{
+    color:#fdeda7;
+    width:120%;
+    
+}
+/* .bg_footer{
   width: 100%;
   z-index: 0;
   margin: 0;
   background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
-}
+} */
 
 /* CSS FOR PHONE SCREENS */
 @media only screen and (max-width: 1024px) {
