@@ -40,7 +40,7 @@ body {
     margin-bottom: 2em;
   }
   
-.navbar a {
+.navbar .nav-link {
     float: left;
     display: block;
     color: #f3585e;
@@ -48,6 +48,12 @@ body {
     padding: 14px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+} 
+
+.navbar .nav-icon{
+    display: block;
+    float: right;
+    color: blue;
 }
 
 
