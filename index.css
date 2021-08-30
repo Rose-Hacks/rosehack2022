@@ -76,14 +76,14 @@ h1, h2{
 
 #neon-text {
     border-radius: 0.8em;
-    margin-left:36%; 
-    margin-right:36%;
+    margin-left:25%; 
+    margin-right:25%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     font-family: 'harlow_solidregular';
     /*TEMPORARY: remove when hero animation is complete*/
     text-align: center;
-    font-size:4em;
+    font-size:8em;
 }
 
 .button_help {
