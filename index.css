@@ -185,16 +185,16 @@ h1, h2{
 }
 
 #beetle_HA{
-    animation: beetle_anim 19s linear infinite;
+    animation: beetle_anim 13s linear infinite;
     position: absolute;
 	left: 0%;
-	top: 68%;
+	top: -5%;
 }
-/* @keyframes beetle_anim{
-    0%, 50% { top: 68%; left: -20%}
-	50%, 100% { top: 68%; left: 110%; }
+@keyframes beetle_anim{
+    0%, 50% { top: -27%; left: -20%}
+	50%, 100% { top: -27%; left: 110%; }
     
-} */
+}
 
 
 .button_help {
