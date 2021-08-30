@@ -37,7 +37,8 @@ body {
 .navbar {
     overflow: hidden;
     background-color: #fdeda7;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
+
   }
   
 .navbar .nav-link {
@@ -80,17 +81,43 @@ h1, h2{
     /* border: 1px solid #f3585e; */
 }
 
-#neon-text {
-    border-radius: 0.8em;
-    margin-left:25%; 
-    margin-right:25%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+#HA {
+    background: linear-gradient(#693C72,#C15050,#D97642, #D49D42);
     font-family: 'harlow_solidregular';
     /*TEMPORARY: remove when hero animation is complete*/
     text-align: center;
+    width:100%;
+    height:100%;
     font-size:8em;
+    padding-top:50%;
 }
+
+#diner_HA{
+    animation: diner_anim;
+    position: absolute;
+	left: 15%;
+	top: 39.5%;
+}
+
+#sign_HA{
+    animation: sign_anim;
+    position: absolute;
+	left: 1%;
+	top: 21%;
+}
+
+#beetle_HA{
+    animation: beetle_anim 19s linear infinite;
+    position: absolute;
+	left: 0%;
+	top: 68%;
+}
+@keyframes beetle_anim{
+    0%, 50% { top: 68%; left: -20%}
+	50%, 100% { top: 68%; left: 110%; }
+    
+}
+
 
 .button_help {
 	border: 0.2em solid #f3585e;
