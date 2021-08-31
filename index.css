@@ -36,7 +36,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background: linear-gradient(#140c22,#261C2C);
+    background: linear-gradient(#0e0206,#270612);
     /* margin-bottom: 2em; */
 
   }
@@ -85,7 +85,8 @@ h1, h2{
 }
 
 #HA {
-    background: linear-gradient(#261C2C, #3E2C41, #5C527F, #6E85B2, #d2f1e4);
+    /* background: linear-gradient( #261C2C, #3E2C41, #5C527F, #6E85B2, #d2f1e4); */
+    background: linear-gradient(#270612,#820933, #ac637c, #d2f1e4);
     font-family: 'harlow_solidregular';
     text-align: center;
     width:100%;
@@ -106,7 +107,7 @@ h1, h2{
     margin-top:7%;
     margin-right:10%;
     top: 26%;
-    color: #f3585e;
+    color: #fff4c3;
     text-shadow:
     0 0 7px #f0c0c1,
     0 0 10px #f0c0c1,
@@ -114,7 +115,7 @@ h1, h2{
     0 0 42px #f3585e;
     background:#140c229a;
     border-radius: 0.4em;
-    border: 0.1em dotted #fdeda7;
+    border: 0.1em dotted #fff4c3;
     /* box-shadow: 0 0 0 0.1em #140c229a; */
     box-shadow:
     0 0 7px rgb(161, 159, 159),
@@ -145,12 +146,12 @@ h1, h2{
     text-align: center;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
-    margin-left:61%;
+    margin-left:60%;
     margin-bottom:13%;
     margin-top:-6%;
     margin-right:26%;
     top: 26%;
-    color: #eed6d7;
+    color: #fff4c3;
     box-shadow:
         0 0 7px #f0c0c1,
         0 0 10px #f0c0c1,
@@ -162,11 +163,11 @@ h1, h2{
 .maindate:hover{
     transform: scale(1.1); 
 	transition: all .3s linear;
-    color: #eed6d7;
+    color: #fff4c3;
 }
 
 #HA a{
-    color: #eed6d7;
+    color: #fff4c3;
 }
 
 /* #diner_HA{
@@ -184,17 +185,29 @@ h1, h2{
     
 }
 
-#beetle_HA{
+/* #beetle_HA{
     animation: beetle_anim 13s linear infinite;
     position: absolute;
-	left: 0%;
-	top: -5%;
-}
-@keyframes beetle_anim{
+	left: 5%;
+	top: 60%;
+} */
+/* @keyframes beetle_anim{
     0%, 50% { top: -27%; left: -20%}
 	50%, 100% { top: -27%; left: 110%; }
     
-}
+} */
+
+/* .beetle_lic {
+    font-family: 'harlow_solidregular';
+	font-weight: normal;
+    font-size: 0.2em;
+    color: #000;
+    margin-left:21%;
+    margin-bottom:43%;
+    margin-top:-20%;
+    margin-right:66%;
+    background-image: url(Assets/HeroAnimation/carrear.png);
+} */
 
 
 .button_help {
@@ -220,7 +233,7 @@ h1, h2{
 }
 
 .button_help:hover {
-	background: #f3585e; 
+	background: #f3585e;
 	color: #fdeda7;
     border: 0.2em solid #fdeda7;
 }
@@ -484,6 +497,13 @@ footer #footer{
     font-family: 'Poppins', sans-serif; 
 }
 
+#jukebox{
+    animation: diner_anim;
+    position: absolute;
+	left: 15%;
+	top: 0%;
+}
+
 #footer .icons{
     grid-template-columns: 25% 25% 25% 25%;
     display:grid;
@@ -513,6 +533,75 @@ footer #footer{
 
 /* CSS FOR PHONE SCREENS */
 @media only screen and (max-width: 1024px) {
+    .maintitle{
+        animation: flicker 1.5s infinite alternate;
+        font-family: 'harlow_solidregular';
+        font-size:0.9em;
+        text-align: center;
+        margin-left:27%;
+        /* margin-bottom:13%; */
+        margin-top:7%;
+        margin-right:27%;
+        top: 26%;
+        color: #fff4c3;
+        text-shadow:
+        0 0 7px #f0c0c1,
+        0 0 10px #f0c0c1,
+        0 0 21px #f3585e,
+        0 0 42px #f3585e;
+        background:#140c229a;
+        border-radius: 0.4em;
+        border: 0.1em dotted #fff4c3;
+        /* box-shadow: 0 0 0 0.1em #140c229a; */
+        box-shadow:
+        0 0 7px rgb(161, 159, 159),
+        0 0 10px #000,
+        0 0 21px #fdeda7,
+        0 0 42px #fdeda7; 
+        padding:2%;
+        padding-bottom: 6%;
+    }
+    @keyframes flicker {
+        0%, 18%, 22%, 25%, 53%, 57%, 100% {
+            text-shadow:
+            0 0 7px #f0c0c1,
+            0 0 10px #f0c0c1,
+            0 0 21px #f3585e,
+            0 0 42px #f3585e;
+        }
+        20%, 24%, 55% {       
+          text-shadow: none;
+        }
+      }
+    
+      .maindate{
+        animation: dateflicker 1.5s infinite alternate;
+        /* transform: skewY(-11deg); */
+        font-family: 'harlow_solidregular';
+        font-size:0.21em;
+        text-align: center;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        margin-left:43%;
+        margin-bottom:13%;
+        margin-top:-8%;
+        margin-right:43%;
+        top: 26%;
+        color: #fff4c3;
+        box-shadow:
+            0 0 7px #f0c0c1,
+            0 0 10px #f0c0c1,
+            0 0 21px #f3585e,
+            0 0 42px #f3585e;
+        background:#f3585e;
+        border-radius: 0.4em;
+    }
+    .maindate:hover{
+        transform: scale(1.1); 
+        transition: all .3s linear;
+        color: #fff4c3;
+    }
+
     #abvol .row {
         display: -ms-grid;
         display: grid;
