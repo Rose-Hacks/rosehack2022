@@ -173,10 +173,30 @@ h1, h2{
     color: #fff4c3;
 }
 
+#record1{
+    position: absolute;
+	left: 29%;
+	top: 41%;
+    opacity: 96%;
+}
+#record2{
+    position: absolute;
+	left: 44%;
+	top: 41%;
+    opacity: 96%;
+}
+#record3{
+    position: absolute;
+	left: 59%;
+	top: 41%;
+    opacity: 96%;
+}
+
 #floor{
     position: absolute;
 	left: 0%;
 	top: 85%;
+    opacity: 96%;
 }
 
 #booth1a{
@@ -228,20 +248,19 @@ h1, h2{
     
 }
 
-
-
-/* #beetle_HA{
-    animation: beetle_anim 13s linear infinite;
+#sign1{
     position: absolute;
-	left: 5%;
-	top: 60%;
-} */
-/* @keyframes beetle_anim{
-    0%, 50% { top: -27%; left: -20%}
-	50%, 100% { top: -27%; left: 110%; }
+	left: 14%;
+	top: 17.2%;
+    opacity: 90%;
+}
+#sign2{
+    position: absolute;
+	left: 4%;
+	top: 17.2%;
+    opacity: 90%;
     
-} */
-
+}
 
 .button_help {
 	border: 0.2em solid #f3585e;
