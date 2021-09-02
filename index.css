@@ -66,10 +66,10 @@ h1, h2{
 }
 
 .section{
-    margin-left: 7%;
-    margin-top: 7%;
-    margin-right: 7%;
-    margin-bottom:3%;
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-right: 7%;
+    padding-bottom:3%;
     /* color:#ffbc0a; */
     color:#f3585e;
 }
@@ -264,7 +264,6 @@ h1, h2{
 
 .button_help {
 	border: 0.2em solid #f3585e;
-    /* box-shadow: 0 0 0.5em #f7b3a9; */
 	border-radius: 8px;
 	padding: 3% 2%;
 	text-align: center;
@@ -275,11 +274,9 @@ h1, h2{
 	font-weight: normal;
 	transition-duration: 0.4s;
 	cursor: pointer;
-	width: 80%;
+	width: 100%;
     min-height: 40%;
-	margin-left: 8%;
-    margin-top:2%;
-    margin-right: 5%;
+	
     color:#f3585e;
     background: #fdeda7;
 }
@@ -296,12 +293,24 @@ h1, h2{
 }
 
 #abvol .row_buttons{
-    padding-top: 1%;
-    padding-bottom:1%;
+    width: 75%;
+	padding: 1%;
+    padding-top: 5%;
+	margin: auto;
+	border-radius: 0.3em;
+    text-align: center;
+}
+
+#abvol a{
+    color:#000;
+    text-transform: uppercase;
+    
+
 }
 
 #abvol {
     font-family: 'Poppins', sans-serif;
+    background: #f9c4bc;
 }
 
 #abvol .about_text {
@@ -313,12 +322,29 @@ h1, h2{
 #abvol .row {
 	display: -ms-grid;
 	display: grid;
-	-ms-grid-columns: 50% 50%;
-	    grid-template-columns: 50% 50%;
+	-ms-grid-columns: 100%;
+	    grid-template-columns: 100%;
 	margin: auto;
 }
+
+#abvol .box_buttons {
+    font-family: 'Poppins', sans-serif;
+    font-size:1.5em;
+    text-align: center;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 25% 25% 25% 25%;
+	    grid-template-columns: 25% 25% 25% 25%;
+	margin: auto;
+}
+
+#abvol .box_button img {
+	padding: 4%;
+}
+
+
 #abvol .box_aboutus{
-    background:#fdeda7;
+    background:#fffff0;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
