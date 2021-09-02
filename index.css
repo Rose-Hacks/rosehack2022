@@ -80,7 +80,7 @@ h1, h2{
     font-family: 'harlow_solidregular';
     text-align: center;
     /* background: #ffd95c; */
-    margin:2%;
+    /* margin:2%; */
     /* border: 1px solid #f3585e; */
 }
 
@@ -150,7 +150,7 @@ h1, h2{
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     margin-left:43%;
-    margin-bottom:17%;
+    margin-bottom:8%;
     margin-top:-48%;
     margin-right:43%;
     
@@ -292,6 +292,10 @@ h1, h2{
 	transition: all .3s linear;
 }
 
+#abvol .titles{
+    margin-top: -10%;
+}
+
 #abvol .row_buttons{
     width: 75%;
 	padding: 1%;
@@ -311,11 +315,14 @@ h1, h2{
 #abvol {
     font-family: 'Poppins', sans-serif;
     background: #f9c4bc;
+    padding-top:11%;
+    border-right: 1.5em solid #F5855B;
+    border-left: 1.5em solid #F5855B;
 }
 
 #abvol .about_text {
     font-size:1.2em;
-    
+    margin-top:-2.5%;
 
 }
 
@@ -391,20 +398,15 @@ p .box_aboutus{
 }
 
 #FAQ .row {
-    padding-right:2%;
+    padding-bottom:2%;
     padding-left:2%;
 	display: -ms-grid;
 	display: grid;
-	-ms-grid-columns: 100%;
-	    grid-template-columns: 100%;
+	-ms-grid-columns: 50% 50%;
+	    grid-template-columns: 50% 50%;
 	margin: auto;
     font-family: 'Poppins', sans-serif;
     transition: all .3s ease-in-out; 
-}
-
-#FAQ .row:hover { 
-    transform: scale(1.04); 
-    background: #fdeda7;
 }
 
 #FAQ .question {
@@ -419,20 +421,30 @@ p .box_aboutus{
 }
 
 #FAQ .titles {
-    background:#f3585e;
-    color: #fdeda7;
-    border-radius:1em;
-    border: 0.2em solid #fdeda7;
+    color: #f3585e; 
+    padding-top:3%;
 }
 
-#FAQ {    
+#FAQ .box{
+    margin-left:1%;
+    margin-right:1%;
+    margin-bottom:1%;
+    padding-right:2%;
+    padding-left:2%;
+}
+#FAQ .box:hover { 
+    transform: scale(1.04); 
+    background: #fdeda7;
+}
+
+#FAQ {  
+    background: #FFFFF0;  
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
-    border-bottom:0.15em solid #f3585e;
-    border-left:0.15em solid #f3585e;
+    border:3.4em solid #d2f1e4;
     /* border: 0.15em solid #f7b3a9;
     box-shadow: 0 0 1.5em #f7b3a9; */
 }
@@ -464,9 +476,6 @@ p .box_aboutus{
 #sponsors span{
     margin:auto;
 }
-
-
-
 
 #organizers {
     background: #f3585e;
