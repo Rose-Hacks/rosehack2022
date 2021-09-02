@@ -1,4 +1,16 @@
 //temp
 function playAudio(url) {
-    new Audio(url).play();
-  }
+    var music = new Audio(url).pause();
+    if(music.paused){
+        music = new Audio(url).play();
+    }
+    else{
+        music.pause();    }
+}
+
+// var music = new Audio();
+// function playMusic(file) {
+//     music.pause();
+//     music = new Audio(file);
+//     music.play();
+// }
