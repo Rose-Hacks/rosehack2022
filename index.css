@@ -524,6 +524,43 @@ p .box_aboutus{
 	width: 30%;
 }
 
+<<<<<<< HEAD
+=======
+#diner{
+    border-top: 2em solid #ffd97d;
+    /* background: #F5855B; */
+    border-bottom: 3.5em solid #F5855B;
+    margin-right:0;
+    margin-left:0;
+}
+
+#diner .row{
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    display:grid;
+    margin:auto;
+    /* background:#fffff0; */
+    
+}
+
+#diner .box{
+    background: linear-gradient(#FFFFF0 50%, #cf704d 50%);
+}
+
+#table {
+    padding-top:25%;
+    margin-top:-55%;
+}
+
+#L_booth{
+    margin-top:-50%;
+}
+
+#R_booth{
+    margin-top:-41%;
+}
+
+
+>>>>>>> parent of 5e38c34... mobile friendly
 #team{
     margin: auto;
     padding-left: 5%;
@@ -703,6 +740,7 @@ footer #footer{
     #abvol .about_text{
         text-align: center;
     }
+<<<<<<< HEAD
     .button_help {
         border: 0.2em solid #f3585e;
         /* box-shadow: 0 0 0.5em #f7b3a9; */
@@ -723,6 +761,19 @@ footer #footer{
         margin:auto;
         color:#f3585e;
         background: #fdeda7;
+=======
+    
+    #FAQ .row {
+        /* padding-bottom:2%; */
+        padding-left:2%;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 100%;
+            grid-template-columns: 100%;
+        margin: auto;
+        font-family: 'Poppins', sans-serif;
+        transition: all .3s ease-in-out; 
+>>>>>>> parent of 5e38c34... mobile friendly
     }
 
     #sponsors .row{
