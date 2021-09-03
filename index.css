@@ -536,6 +536,7 @@ p .box_aboutus{
     font-family: 'Poppins', sans-serif; 
     text-align: center;
     font-size: 1.3em;
+    color: black;
 }
 
 #team .record:hover{
