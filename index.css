@@ -28,6 +28,8 @@ body {
     /* background: linear-gradient(#312244,#3e1f47,#4d194d); */
     /* background: #ffd97d; */
     background: #d2f1e4;
+    max-width: 100%;
+    overflow-x: hidden;
     margin:0;
 
     
@@ -227,6 +229,7 @@ h1, h2{
     font-family: 'Poppins', sans-serif;
     background: #f9c4bc;
     padding-top:11%;
+    /* width: 100%; */
     border-right: 1.5em solid #F5855B;
     border-left: 1.5em solid #F5855B;
 }
@@ -254,6 +257,7 @@ h1, h2{
 	-ms-grid-columns: 25% 25% 25% 25%;
 	    grid-template-columns: 25% 25% 25% 25%;
 	margin: auto;
+    padding-bottom: 3%;
 }
 
 #abvol .box_button img {
@@ -262,13 +266,15 @@ h1, h2{
 
 
 #abvol .box_aboutus{
+    text-align: center;
+    color: black;
     background:#fffff0;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
     padding-top: 2%;
     padding-bottom: 3%;
     border-radius: 1em;
-    margin-bottom:2%;
+    margin-bottom:6%;
     /* border: 0.5em dashed #f3585e; */
     transition: 0.70s;
   -webkit-transition: 0.70s;
