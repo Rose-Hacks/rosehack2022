@@ -48,7 +48,7 @@ body {
 .navbar .nav-link {
     float: left;
     display: block;
-    color: #f3585e;
+    color: white;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -58,7 +58,7 @@ body {
 .navbar .nav-icon{
     display: block;
     float: right;
-    color: #f3585e;
+    color: white;
     text-align: center;
     padding: 14px;
     font-family: 'Poppins', sans-serif;
@@ -141,10 +141,22 @@ h1, h2{
     }
   }
 
+  .date {
+    font-weight: bold;
+  }
+
+.rhinfo {
+    font-size:0.2em;
+    color: white;
+    font-family: "poppins";
+}
+
   .register{
     animation: dateflicker 1.5s infinite alternate;
     /* transform: skewY(-11deg); */
     font-size:0.23em;
+    font-family: "poppins";
+    text-transform: uppercase;
     margin-right:30%;
     margin-left:30%;
     margin-top:3%;
