@@ -199,38 +199,6 @@ h1, h2{
     opacity: 96%;
 }
 
-#booth1a{
-    position: absolute;
-	left: 1%;
-	top: 60%;
-}
-#booth1b{
-    position: absolute;
-	left: 14%;
-	top: 58.2%;
-}
-#table1{
-    position: absolute;
-	left: 22%;
-	top: 64.2%;
-}
-
-#booth2a{
-    position: absolute;
-	left: 31%;
-	top: 60%;
-}
-#booth2b{
-    position: absolute;
-	left: 44%;
-	top: 58.2%;
-}
-#table2{
-    position: absolute;
-	left: 52%;
-	top: 64.2%;
-}
-
 #booth3a{
     position: absolute;
 	left: 61%;
@@ -478,10 +446,10 @@ p .box_aboutus{
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 6%;
-    border-radius: 1em;
+    /* border-radius: 1em; */
     border-top: 1.5em solid #ffd97d;
-    border-right: 4em solid #ffd97d;
-    border-left: 4em solid #ffd97d;
+    border-right: 1.5em solid #ffd97d;
+    border-left: 1.5em solid #ffd97d;
     border-bottom: 2em solid #ffd97d;
     /* border-top: 0.4em solid #ffd97d; */
     /* box-shadow: 0 0 0 1.1em #fdeda7;  */
@@ -518,8 +486,8 @@ p .box_aboutus{
     
     /* border-radius: 3em; */
     border-top: 4.5em solid #ffd97d;
-    border-right: 4em solid #ffd97d;
-    border-left: 4em solid #ffd97d;
+    border-right: 1.5em solid #ffd97d;
+    border-left: 1.5em solid #ffd97d;
     border-bottom: 2em solid #ffd97d;
     /* border: 0.4em solid #d2f1e4;
     box-shadow: 0 0 0 1.1em #f3585e;  */
@@ -566,6 +534,40 @@ p .box_aboutus{
 #organizers #wincIcon {
 	width: 30%;
 }
+
+#diner{
+    border-top: 2em solid #ffd97d;
+    /* background: #F5855B; */
+    border-bottom: 4.5em solid #F5855B;
+    margin-right:0;
+    margin-left:0;
+}
+
+#diner .row{
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    display:grid;
+    margin:auto;
+    /* background:#fffff0; */
+    
+}
+
+#diner .box{
+    background: linear-gradient(#FFFFF0 50%, #cf704d 50%);
+}
+
+#table {
+    padding-top:25%;
+    margin-top:-55%;
+}
+
+#L_booth{
+    margin-top:-50%;
+}
+
+#R_booth{
+    margin-top:-41%;
+}
+
 
 #team{
     margin: auto;
