@@ -524,8 +524,6 @@ p .box_aboutus{
 	width: 30%;
 }
 
-<<<<<<< HEAD
-=======
 #diner{
     border-top: 2em solid #ffd97d;
     /* background: #F5855B; */
@@ -560,7 +558,6 @@ p .box_aboutus{
 }
 
 
->>>>>>> parent of 5e38c34... mobile friendly
 #team{
     margin: auto;
     padding-left: 5%;
@@ -740,28 +737,6 @@ footer #footer{
     #abvol .about_text{
         text-align: center;
     }
-<<<<<<< HEAD
-    .button_help {
-        border: 0.2em solid #f3585e;
-        /* box-shadow: 0 0 0.5em #f7b3a9; */
-        border-radius: 8px;
-        padding: 3% 2%;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 2em;
-        font-family: 'Yellowtail', cursive;
-        font-weight: normal;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        width: 95%;
-        min-height: 40%;
-        
-        margin-top:2%;
-        margin:auto;
-        color:#f3585e;
-        background: #fdeda7;
-=======
     
     #FAQ .row {
         /* padding-bottom:2%; */
@@ -773,7 +748,6 @@ footer #footer{
         margin: auto;
         font-family: 'Poppins', sans-serif;
         transition: all .3s ease-in-out; 
->>>>>>> parent of 5e38c34... mobile friendly
     }
 
     #sponsors .row{
