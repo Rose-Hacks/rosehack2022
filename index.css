@@ -431,6 +431,11 @@ p .box_aboutus{
     padding-bottom: 2%;
     margin:auto;
 }
+
+#sponsors .box {
+    padding: 5%;
+}
+
 #sponsors span{
     margin:auto;
 }
