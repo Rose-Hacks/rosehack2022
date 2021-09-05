@@ -94,11 +94,11 @@ h1, h2{
     font-family: 'harlow_solidregular';
     text-align: center;
     width:100%;
-    height:100%;
+    height:90%;
     font-size:8em;
-    padding-top:8%;
+    padding-top:6%;
     margin-bottom:0%;
-    border-bottom:1.8em solid #363142;
+    /* border-bottom:1.1em solid #363142; */
 }
 
 #header_title{
@@ -111,24 +111,24 @@ h1, h2{
     0 0 10px #000,
     0 0 21px #fdeda7,
     0 0 42px #fdeda7;  */
-    margin-right: 20%;
-    margin-left: 20%;
-    padding-top: 1%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 0%;
     /* padding-bottom: 1%; */
 }
 
 
 .maintitle{
     animation: flicker 1.5s infinite alternate;
-    font-size:0.6em;
-    color: #fff4c3;
-    text-shadow:
+    font-size:0.9em;
+    color: #fffff0;
+    /* text-shadow:
     0 0 7px #f0c0c1,
     0 0 10px #f0c0c1,
     0 0 21px #f3585e,
-    0 0 42px #f3585e;
+    0 0 42px #f3585e; */
 }
-@keyframes flicker {
+/* @keyframes flicker {
     0%, 18%, 22%, 25%, 53%, 57%, 100% {
         text-shadow:
         0 0 7px #f0c0c1,
@@ -139,7 +139,7 @@ h1, h2{
     20%, 24%, 55% {       
       text-shadow: none;
     }
-  }
+  } */
 
   .date {
     font-weight: bold;
@@ -175,29 +175,47 @@ h1, h2{
     color: #fff4c3;
 }
 
+.an {
+    background: linear-gradient(#53697600 50%, #363142 50%);
+}
+
 #hero{
     padding-left:15%;
     padding-top:0%;
-    margin-bottom:-32%; 
+    margin-top:2%;
+    margin-bottom:3%;
 }
 
 #herosign {
-    margin-bottom:-32%;
+    margin-top:-60%;
 }
 
 #HA a{
     color: #fff4c3;
 }
 
-#HA .row{
+
+#HA .text{
     padding-right:2%;
     padding-left:2%;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 100%;
+	    grid-template-columns: 100%;
+	margin: auto;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#HA .animation{
+    /* padding-right:2%;
+    padding-left:2%; */
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 25% 75%;
 	    grid-template-columns: 25% 75%;
 	margin: auto;
     font-family: 'Poppins', sans-serif; 
+    
 }
 
 
@@ -396,8 +414,8 @@ p .box_aboutus{
 
 #FAQ {  
     background: #FFFFF0;  
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em;
@@ -663,13 +681,12 @@ footer #footer{
         font-family: 'harlow_solidregular';
         text-align: center;
         border-radius: 0.4em;
-        border: 0.1em dotted #fff4c3;
-        /* box-shadow: 0 0 0 0.1em #140c229a; */
+        /* border: 0.1em dotted #fff4c3;
         box-shadow:
         0 0 7px rgb(161, 159, 159),
         0 0 10px #000,
         0 0 21px #fdeda7,
-        0 0 42px #fdeda7; 
+        0 0 42px #fdeda7;  */
         margin-right: 10%;
         margin-left: 10%;
         padding-top: 1%;
@@ -687,15 +704,15 @@ footer #footer{
         margin-top:7%;
         margin-right:10%;
         top: 26%;
-        color: #fff4c3;
-        text-shadow:
+        color: #ffffff;
+        /* text-shadow:
         0 0 7px #f0c0c1,
         0 0 10px #f0c0c1,
         0 0 21px #f3585e,
-        0 0 42px #f3585e;
+        0 0 42px #f3585e; */
         border-radius: 0.4em;
     }
-    @keyframes flicker {
+    /* @keyframes flicker {
         0%, 18%, 22%, 25%, 53%, 57%, 100% {
             text-shadow:
             0 0 7px #f0c0c1,
@@ -706,19 +723,19 @@ footer #footer{
         20%, 24%, 55% {       
           text-shadow: none;
         }
-      }
+      } */
     
       .register{
         animation: dateflicker 1.5s infinite alternate;
         /* transform: skewY(-11deg); */
-        font-family: 'harlow_solidregular';
+        font-family: 'Poppins', sans-serif;
         font-size:0.21em;
         text-align: center;
         padding-top: 0.5%;
         padding-bottom: 0.5%;
         margin-bottom:6%;
         
-        color: #fff4c3;
+        color: #ffffff;
         box-shadow:
             0 0 7px #f0c0c1,
             0 0 10px #f0c0c1,

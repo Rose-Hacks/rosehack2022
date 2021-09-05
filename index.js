@@ -1,12 +1,12 @@
 //temp
-function playAudio(url) {
-    var music = new Audio(url).pause();
-    if(music.paused){
-        music = new Audio(url).play();
+function myFunction() {
+    var x = document.getElementById("Demo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
     }
-    else{
-        music.pause();    }
-}
+  }
 
 // var music = new Audio();
 // function playMusic(file) {
