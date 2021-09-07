@@ -157,8 +157,8 @@ h1, h2{
     font-size:0.23em;
     font-family: "poppins";
     text-transform: uppercase;
-    margin-right:30%;
-    margin-left:30%;
+    margin-right:40%;
+    margin-left:40%;
     margin-top:3%;
     color: #fff4c3;
     box-shadow:
@@ -626,7 +626,7 @@ footer{
 }
 
 footer #footer{
-    background: #f3585e;
+    /* background: #f3585e; */
     padding-top:1%;
     padding-bottom:1%;
     padding-left:8%;
@@ -637,7 +637,6 @@ footer #footer{
     margin-left: 30%;
     margin-right:30%;
     border-radius: 1em;
-    border: 0.4em solid #f3585e;
     font-family: 'Poppins', sans-serif; 
 }
 
@@ -649,9 +648,15 @@ footer #footer{
 }
 
 #footer .icons{
+    background: #f3585e;
     grid-template-columns: 25% 25% 25% 25%;
     display:grid;
-    margin:auto;
+    margin-top: 30%;
+    margin-bottom:5%;
+    /* margin-left: 10%;
+    margin-right:10%; */
+    padding:3%;
+
 }
 
 #footer span{
