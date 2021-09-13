@@ -98,6 +98,8 @@ h1, h2{
     font-size:8em;
     padding-top:6%;
     margin-bottom:0%;
+    /* background-image: url(Assets/HeroAnimation/newstars_a.png.png), linear-gradient(#292E49,#536976);
+    background-blend-mode: overlay; */
     /* border-bottom:1.1em solid #363142; */
 }
 
