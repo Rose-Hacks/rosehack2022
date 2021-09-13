@@ -103,10 +103,17 @@ h1, h2{
     /* border-bottom:1.1em solid #363142; */
 }
 
+#HA .row{
+    background-image: url(Assets/HeroAnimation/newstars_a.png);
+    background-size: 100%;
+}
+
 #header_title{
     font-family: 'harlow_solidregular';
     text-align: center;
     border-radius: 0.4em;
+    /* background-image: url(Assets/HeroAnimation/newstars_a.png);
+    background-size: 100%; */
     /* border: 0.1em dotted #fff4c3;
     box-shadow:
     0 0 7px rgb(161, 159, 159),
@@ -117,6 +124,12 @@ h1, h2{
     margin-left: 10%;
     padding-top: 0%;
     /* padding-bottom: 1%; */
+}
+
+.star_bg {
+    background-image: url(Assets/HeroAnimation/newstars_a.png);
+    padding-top:50%;
+    margin-top:-55%;
 }
 
 
@@ -181,6 +194,11 @@ h1, h2{
     background: linear-gradient(#53697600 50%, #363142 50%);
 }
 
+#city{
+    margin-top:-20%;
+    margin-bottom:-38%;
+}
+
 #hero{
     padding-left:15%;
     padding-top:0%;
@@ -189,7 +207,7 @@ h1, h2{
 }
 
 #herosign {
-    margin-top:-60%;
+    margin-top:-46%;
 }
 
 #HA a{
@@ -208,6 +226,14 @@ h1, h2{
     font-family: 'Poppins', sans-serif; 
 }
 
+#HA .buildings{
+    display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 100%;
+	    grid-template-columns: 100%;
+	margin: auto;
+}
+
 #HA .animation{
     /* padding-right:2%;
     padding-left:2%; */
@@ -217,7 +243,8 @@ h1, h2{
 	    grid-template-columns: 25% 75%;
 	margin: auto;
     font-family: 'Poppins', sans-serif; 
-    
+    /* background-image: url(Assets/HeroAnimation/background.png);
+    background-size: 100%; */
 }
 
 
