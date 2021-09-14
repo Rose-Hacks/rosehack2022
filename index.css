@@ -44,9 +44,26 @@ body {
     /* margin-bottom: 2em; */
 
   }
+
+.navbar img {
+    float: left;
+    width: 60px;
+    padding-left: 10px;
+}
+
+.navbar .nav-title {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}  
   
 .navbar .nav-link {
-    float: left;
+    float: right;
     display: block;
     color: white;
     text-align: center;
