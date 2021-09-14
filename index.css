@@ -738,9 +738,11 @@ p .box_aboutus{
 
 footer{
     /* margin-top:5%; */
+    height: 100px;
     background-image: url("Assets/footer3.png");
     background-repeat: repeat-x;
     background-size: 50% 100%;
+
     /* background-size: 100% 100%; */
   
     /* padding-top: 4%; */
@@ -748,18 +750,11 @@ footer{
 }
 
 footer #footer{
-    /* background: #f3585e; */
-    padding-top:1%;
-    padding-bottom:1%;
-    padding-left:8%;
-    padding-right:8%;
-    margin-top: 5%;
-    margin-bottom:5%;
-    /* margin: auto; */
-    margin-left: 30%;
-    margin-right:30%;
-    border-radius: 1em;
+    position: relative;
+    margin-left: 20%;
+    margin-right:20%;
     font-family: 'Poppins', sans-serif; 
+    padding-top: 2%;
 }
 
 #jukebox{
@@ -770,14 +765,15 @@ footer #footer{
 }
 
 #footer .icons{
-    background: #f3585e;
-    grid-template-columns: 25% 25% 25% 25%;
-    display:grid;
-    margin-top: 30%;
+    background: #f3515e;
+    /* grid-template-columns: 25% 25% 25% 25%;
+    display:grid; */
     margin-bottom:5%;
     /* margin-left: 10%;
     margin-right:10%; */
     padding:3%;
+    border-radius: 5px;
+
 
 }
 
