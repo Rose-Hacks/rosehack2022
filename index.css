@@ -104,7 +104,7 @@ h1, h2{
 }
 
 #HA .row{
-    background-image: url(Assets/HeroAnimation/newstars_a.png);
+    /* background-image: url(Assets/HeroAnimation/newstars_a.png); */
     background-size: 100%;
 }
 
@@ -127,9 +127,9 @@ h1, h2{
 }
 
 .star_bg {
-    background-image: url(Assets/HeroAnimation/newstars_a.png);
-    padding-top:50%;
-    margin-top:-55%;
+    /* background-image: url(Assets/HeroAnimation/newstars_a.png); */
+    /* padding-top:50%;
+    margin-top:-55%; */
 }
 
 
@@ -191,23 +191,61 @@ h1, h2{
 }
 
 .an {
-    background: linear-gradient(#53697600 50%, #363142 50%);
+    background: linear-gradient(#363142 50%, #363142 50%);
 }
 
 #city{
-    margin-top:-20%;
-    margin-bottom:-38%;
+    margin-top:-37%;
+    margin-bottom:-44%;
 }
+
+#stars{
+    position:relative;
+    margin-top:-40%;
+    margin-bottom:0%;
+}
+
+#stars img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes starsFadeInOut {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:0.66;
+  }
+  55% {
+  opacity:0.33;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+  
+  #stars img.top {
+  animation-name: starsFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  }
 
 #hero{
     padding-left:15%;
     padding-top:0%;
-    margin-top:2%;
+    margin-top:-54%;
     margin-bottom:3%;
 }
 
 #herosign {
-    margin-top:-46%;
+    margin-top:-100%;
 }
 
 #HA a{
