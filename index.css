@@ -44,9 +44,26 @@ body {
     /* margin-bottom: 2em; */
 
   }
+
+.navbar img {
+    float: left;
+    width: 60px;
+    padding-left: 10px;
+}
+
+.navbar .nav-title {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}  
   
 .navbar .nav-link {
-    float: left;
+    float: right;
     display: block;
     color: white;
     text-align: center;
@@ -64,6 +81,61 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Icon */
+.float1{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:5%;
+	right:20px;
+	background-color:#f3585e;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+.float2{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:15%;
+	right:20px;
+	background-color:#f3585e;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+.float3{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:25%;
+	right:20px;
+	background-color:#f3585e;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+.float4{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:35%;
+	right:20px;
+	background-color:#f3585e;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+/*-----------*/
 
 h1, h2{
     font-family: 'Harlow Solid Regular', cursive;
@@ -684,9 +756,11 @@ p .box_aboutus{
 
 footer{
     /* margin-top:5%; */
+    height: 100px;
     background-image: url("Assets/footer3.png");
     background-repeat: repeat-x;
-    background-size: 70% 80%;
+    background-size: 50% 100%;
+
     /* background-size: 100% 100%; */
   
     /* padding-top: 4%; */
@@ -694,18 +768,11 @@ footer{
 }
 
 footer #footer{
-    /* background: #f3585e; */
-    padding-top:1%;
-    padding-bottom:1%;
-    padding-left:8%;
-    padding-right:8%;
-    margin-top: 2%;
-    margin-bottom:2%;
-    /* margin: auto; */
-    margin-left: 30%;
-    margin-right:30%;
-    
+    position: relative;
+    margin-left: 20%;
+    margin-right:20%;
     font-family: 'Poppins', sans-serif; 
+    padding-top: 2%;
 }
 
 #jukebox{
@@ -715,28 +782,10 @@ footer #footer{
 	top: 0%;
 }
 
-#contact{
-    background: #f3585e;
-}
-
 #footer .icons{
-    /* background: #f3585e; */
-    grid-template-columns: 25% 25% 25% 25%;
-    display:grid;
-    margin-top: 30%;
-    margin-bottom:0%;
-    /* margin-left: 10%;
-    margin-right:10%; */
-    /* border-radius: 1em; */
-    padding:3%;
-
-}
-
-#footer .email{
-    /* background: #f3585e; */
-    grid-template-columns: 100%;
-    display:grid;
-    margin-top: 0%;
+    background: #f3515e;
+    /* grid-template-columns: 25% 25% 25% 25%;
+    display:grid; */
     margin-bottom:5%;
     /* margin-left: 10%;
     margin-right:10%; */
@@ -757,6 +806,8 @@ footer #footer{
     /* border-radius: 1em; */
     font-family: 'Poppins', sans-serif;
     padding:3%;
+    border-radius: 5px;
+
 
 }
 
