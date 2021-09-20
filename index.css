@@ -41,6 +41,7 @@ body {
     background: #292E49;
     position: fixed;
     width:100%;
+    z-index: 2;
     /* margin-bottom: 2em; */
 
   }
@@ -276,6 +277,7 @@ h1, h2{
     margin-top:-40%;
     margin-bottom:0%;
     opacity: 50%;
+    z-index: 0;
 }
 
 #stars img {
@@ -401,7 +403,7 @@ h1, h2{
 	/* margin-top:3%; */
     text-align: center;
     background: #F5855B;
-    border-radius: 50%;
+    border-radius: 1em;
 }
 
 #abvol a{
@@ -764,7 +766,7 @@ footer{
     /* background-size: 100% 100%; */
   
     /* padding-top: 4%; */
-    /* padding-bottom: 4%; */
+    padding-bottom: 4%;
 }
 
 footer #footer{
@@ -773,6 +775,7 @@ footer #footer{
     margin-right:20%;
     font-family: 'Poppins', sans-serif; 
     padding-top: 2%;
+    
 }
 
 #jukebox{
@@ -792,6 +795,7 @@ footer #footer{
     /* border-radius: 1em; */
     font-family: 'Poppins', sans-serif;
     padding:3%;
+    border-radius:1em;
 
 }
 
