@@ -536,7 +536,7 @@ p .box_aboutus{
     /* margin-bottom:1%; */
     padding-right:4%;
     padding-left:2%;
-    border-right:0.25em solid #e81b23;
+    /* border-right:0.25em solid #e81b23; */
 }
 /* #FAQ .box1:hover { 
     transform: scale(1.04); 
@@ -549,7 +549,7 @@ p .box_aboutus{
     /* margin-bottom:1%; */
     padding-right:2%;
     padding-left:6%;
-    border-left:0.25em solid #e81b23;
+    /* border-left:0.25em solid #e81b23; */
 }
 /* #FAQ .box2:hover { 
     transform: scale(1.04); 
@@ -964,7 +964,8 @@ footer #footer{
     .volunteer-buttons, .mentor_button, .workshop_button, .sponsor_button{
         margin-top:2%;
     }
-    
+
+
     #FAQ .row {
         /* padding-bottom:2%; */
         padding-left:2%;
@@ -977,6 +978,23 @@ footer #footer{
         transition: all .3s ease-in-out; 
     }
 
+    #FAQ .box1{
+        margin-left:1%;
+        /* margin-right:1%; */
+        /* margin-bottom:1%; */
+        padding-right:4%;
+        padding-left:2%;
+        /* border-right:0.25em solid #e81b23; */
+    }
+    
+    #FAQ .box2{
+        /* margin-left:1%; */
+        margin-right:1%;
+        /* margin-bottom:1%; */
+        padding-right:2%;
+        padding-left:6%;
+        /* border-left:0.25em solid #e81b23; */
+    }
     
 
     #sponsors .row{
