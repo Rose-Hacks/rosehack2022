@@ -758,7 +758,7 @@ p .box_aboutus{
 
 footer{
     /* margin-top:5%; */
-    height: 100%;
+    height: 100px;
     background-image: url("Assets/footer3.png");
     background-repeat: repeat-x;
     background-size: 50% 100%;
@@ -793,21 +793,18 @@ footer #footer{
     /* background: #f3515e; */
     /* grid-template-columns: 25% 25% 25% 25%;
     display:grid; */
-    margin-top:5%;
+    margin-bottom: 5%;
+    /* margin-top:5%; */
     /* margin-left: 10%;
     margin-right:10%; */
     /* border-radius: 1em; */
     /* font-size: 1.2em; */
     font-family: 'Poppins', sans-serif;
-    padding:1%;
+    padding:3%;
     text-align: center;
     color: #fdeda7;
     background: #f3515e;
     border-radius:1em;
-}
-
-#copyright{
-    /* font-size:0.9em; */
 }
 
 #footer span {
