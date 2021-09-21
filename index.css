@@ -850,7 +850,7 @@ footer #footer{
   background-attachment: fixed;
 } */
 
-/* CSS FOR PHONE SCREENS */
+/* CSS FOR PHONE MOBILE SCREENS */
 @media only screen and (max-width: 1024px) {
     #header_title{
         font-family: 'harlow_solidregular';
@@ -954,7 +954,7 @@ footer #footer{
         width: 75%;
         padding: 1%;
         /* margin-top: 23%; */
-        margin: auto;
+        margin: 5%;
         /* margin-top:3%; */
         text-align: center;
         background: #F5855B;
