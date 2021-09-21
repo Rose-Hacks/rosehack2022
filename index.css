@@ -775,6 +775,8 @@ footer #footer{
     margin-right:20%;
     font-family: 'Poppins', sans-serif; 
     padding-top: 2%;
+    text-align: center;
+    color: #fdeda7;
     
 }
 
@@ -797,6 +799,10 @@ footer #footer{
     padding:3%;
     border-radius:1em;
 
+}
+
+#footer span {
+    font-size: 0.8em;
 }
 
 #footer .madewith{
