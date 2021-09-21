@@ -239,7 +239,7 @@ h1, h2{
     font-family: "poppins";
 }
 
-  .register{
+.register{
     animation: dateflicker 1.5s infinite alternate;
     /* transform: skewY(-11deg); */
     font-size:0.23em;
@@ -248,19 +248,19 @@ h1, h2{
     margin-right:40%;
     margin-left:40%;
     margin-top:3%;
-    color: #fff4c3;
-    box-shadow:
+    color: #e81b23;
+    /* box-shadow:
         0 0 7px #f0c0c1,
         0 0 10px #f0c0c1,
         0 0 21px #f3585e,
-        0 0 42px #f3585e;
-    background:#f3585e;
+        0 0 42px #f3585e; */
+    background:#fffff0;
     border-radius: 0.4em;
 }
 .register:hover{
     transform: scale(1.1); 
 	transition: all .3s linear;
-    color: #fff4c3;
+    color: #e81b23;
 }
 
 .an {
@@ -758,10 +758,10 @@ p .box_aboutus{
 
 footer{
     /* margin-top:5%; */
-    height: 100px;
+    height: 100%;
     background-image: url("Assets/footer3.png");
     background-repeat: repeat-x;
-    background-size: 50% 100%;
+    background-size: 65% 100%;
 
     /* background-size: 100% 100%; */
   
@@ -785,18 +785,27 @@ footer #footer{
 	top: 0%;
 }
 
+
+
 #footer .icons{
-    background: #f3515e;
+    /* background: #f3515e; */
     /* grid-template-columns: 25% 25% 25% 25%;
     display:grid; */
-    margin-bottom:5%;
+    margin-top:5%;
     /* margin-left: 10%;
     margin-right:10%; */
     /* border-radius: 1em; */
+    font-size: 1.2em;
     font-family: 'Poppins', sans-serif;
-    padding:3%;
+    padding:1%;
+    text-align: center;
+    color: #fdeda7;
+    background: #f3515e;
     border-radius:1em;
+}
 
+#copyright{
+    font-size:0.9em;
 }
 
 #footer .madewith{
@@ -896,13 +905,13 @@ footer #footer{
         padding-bottom: 0.5%;
         margin-bottom:6%;
         
-        color: #ffffff;
-        box-shadow:
+        color: #e81b23;
+        /* box-shadow:
             0 0 7px #f0c0c1,
             0 0 10px #f0c0c1,
             0 0 21px #f3585e,
-            0 0 42px #f3585e;
-        background:#f3585e;
+            0 0 42px #f3585e; */
+        background:#fffff0;
         border-radius: 0.4em;
     }
     .register:hover{
