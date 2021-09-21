@@ -761,7 +761,7 @@ footer{
     height: 100%;
     background-image: url("Assets/footer3.png");
     background-repeat: repeat-x;
-    background-size: 65% 100%;
+    background-size: 50% 100%;
 
     /* background-size: 100% 100%; */
   
@@ -905,7 +905,7 @@ footer #footer{
         padding-bottom: 0.5%;
         margin-bottom:6%;
         
-        color: #e81b23;
+        /* color: #e81b23; */
         /* box-shadow:
             0 0 7px #f0c0c1,
             0 0 10px #f0c0c1,
