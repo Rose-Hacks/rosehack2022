@@ -536,7 +536,7 @@ p .box_aboutus{
     /* margin-bottom:1%; */
     padding-right:4%;
     padding-left:2%;
-    border-right:0.25em solid #e81b23;
+    /* border-right:0.25em solid #e81b23; */
 }
 /* #FAQ .box1:hover { 
     transform: scale(1.04); 
@@ -852,6 +852,10 @@ footer #footer{
 
 /* CSS FOR PHONE MOBILE SCREENS */
 @media only screen and (max-width: 1024px) {
+    .navbar {
+        visibility: hidden;
+    }
+
     #header_title{
         font-family: 'harlow_solidregular';
         text-align: center;
