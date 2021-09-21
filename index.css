@@ -958,7 +958,11 @@ footer #footer{
         /* margin-top:3%; */
         text-align: center;
         background: #F5855B;
-        border-radius: 50%;
+    border-radius: 1em;
+    }
+
+    .volunteer-buttons, .mentor_button, .workshop_button, .sponsor_button{
+        margin-top:2%;
     }
     
     #FAQ .row {
