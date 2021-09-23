@@ -415,7 +415,7 @@ h1, h2{
 #abvol {
     font-family: 'Poppins', sans-serif;
     background: #f9c4bc;
-    padding-top:11%;
+    padding-top:8%;
     /* width: 100%; */
     border-right: 1.5em solid #F5855B;
     border-left: 1.5em solid #F5855B;
@@ -573,6 +573,80 @@ p .box_aboutus{
     font-family: 'Yellowtail', cursive;
     font-size: 2em;
     font-weight: bold;
+}
+
+#committee{
+    background: #FBC193;
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 2.5%;
+    /* border-radius: 1em; */
+    border-top: 1.5em solid #FBC193;
+    border-right: 1.5em solid #FBC193;
+    border-left: 1.5em solid #FBC193;
+    border-bottom: 2em solid #FBC193;
+}
+
+#com_sub{
+    border-radius: 1em;
+    background: #fffff0;
+    /* background: url(Assets/footer2.png); */
+    background-size: 100% 100%;
+    padding-top:5%;
+    padding-bottom:3%;
+    border: 0.8em solid #Fd9d97
+}
+
+#committee .titles{
+    margin-top: -10.5%;
+}
+
+#committee .row{
+    grid-template-columns: 33% 34% 33%;
+    display:grid;
+    margin:auto;
+}
+
+#committee .row1{
+    grid-template-columns: 98%;
+    display:grid;
+    margin:auto;
+    padding-right:1%;
+    padding-left:1%;
+    text-align: center;
+}
+
+#committee .row1 a{
+    color: #000;
+}
+
+#committee span{
+    margin:auto;
+    /* background: #FBC193; */
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    border-radius: 1em;
+    color: #fffff0;
+    /* border: 0.3em solid #Fd9d97 */
+}
+
+.com_info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: #000;
+}
+
+#group{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#time{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    text-align: center;
 }
 
 #sponsors {
@@ -998,6 +1072,13 @@ footer #footer{
         padding-right:4%;
         padding-left:2%;
         /* border-left:0.25em solid #e81b23; */
+    }
+
+    #committee .row{
+        grid-template-columns: 100%;
+        display:grid;
+        padding-bottom: 2%;
+        margin:auto;
     }
     
 
