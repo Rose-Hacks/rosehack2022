@@ -314,15 +314,23 @@ h1, h2{
   }
 
 #hero{
-    padding-left:15%;
+    padding-left:4%;
     padding-top:0%;
     margin-top:-54%;
     margin-bottom:3%;
+    overflow-x: hidden;
+}
+
+#car1{
+    transform: scaleX(-1);
+    margin-top:-14%;
+    margin-bottom:20%;
 }
 
 #herosign {
-    margin-top:-100%;
-    margin-left:6%;
+    margin-top:-140%;
+    margin-bottom: 40%;
+    margin-left:26%;
 }
 
 #HA a{
@@ -355,8 +363,8 @@ h1, h2{
     padding-left:2%; */
 	display: -ms-grid;
 	display: grid;
-	-ms-grid-columns: 25% 75%;
-	    grid-template-columns: 25% 75%;
+	-ms-grid-columns: 20% 15% 65%;
+	    grid-template-columns: 20% 15% 65%;
 	margin: auto;
     font-family: 'Poppins', sans-serif; 
     /* background-image: url(Assets/HeroAnimation/background.png);
@@ -791,7 +799,7 @@ p .box_aboutus{
     padding-top: 5%;
     font-family: 'Poppins', sans-serif; 
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: black;
 }
 
@@ -799,7 +807,11 @@ p .box_aboutus{
     margin-bottom: 0%;
 }
 
-#team .record:hover{
+/* #team .record{
+    
+} */
+
+/* #team .record:hover{
     transition: 0.70s;
     -webkit-transition: 0.70s;
     -moz-transition: 0.70s;
@@ -810,7 +822,7 @@ p .box_aboutus{
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
-}
+} */
 
 #team #row1{
     grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
@@ -826,11 +838,18 @@ p .box_aboutus{
 
 #team span{
     margin:auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom:20%;
     
 }
 #team .record{
     width:100%;
     margin-bottom:1%;
+}
+
+#team .name{
+    margin-top:-30%;
 }
 
 footer{
