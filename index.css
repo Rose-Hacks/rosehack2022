@@ -838,6 +838,12 @@ p .box_aboutus{
     margin: auto 8%;
 }
 
+#team .row1mobile {
+    grid-template-columns: 33% 33% 33%;
+    display: grid;
+    margin: auto;
+}
+
 #team span{
     margin:auto;
     padding-right: 10%;
@@ -852,6 +858,32 @@ p .box_aboutus{
 
 #team .name{
     margin-top:-30%;
+}
+
+.siteTeam {
+    display: block;
+}
+
+.siteTeamMobile {
+    display: none;
+}
+.mobileTeam {
+    display: none;
+}
+
+@media(max-width:1024px) {
+    .siteTeam {
+        display: none;
+    }
+    .mobileTeam {
+        display: block;
+    }
+
+    .siteTeamMobile {
+        display: grid; 
+        grid-template-columns: 50% 50%;
+        font-size: 2em;
+    }
 }
 
 footer{
