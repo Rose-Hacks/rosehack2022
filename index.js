@@ -7,7 +7,7 @@ function myFunction() {
       x.className = x.className.replace(" w3-show", "");
     }
   }
-
+  
 // var music = new Audio();
 // function playMusic(file) {
 //     music.pause();

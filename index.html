@@ -16,6 +16,8 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 		<link rel="stylesheet" href="icofont/icofont.min.css">
+		<style>
+					</style>
 	</head>
 		
 	<body>  
@@ -71,6 +73,45 @@
 		<a class="float3" href="https://www.instagram.com/rosehackucr/" target="_blank"><i class="fab fa-instagram fa-lg my-float"></i></a>
 		<a class="float4" href="https://www.linkedin.com/company/rose-hack/" target="_blank"><i class="fab fa-linkedin-in fa-lg my-float"></i></a>
 
+		<div class="section" id="COVID">
+			<div id="COVID_sub">
+				<div class= "titles">
+					<img src="Assets/covid_regulations.png" alt="About Us" width="90%">
+				</div>
+
+				<button class="accordion">Principles</button>
+				<div class="panel">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<button class="accordion">Capacity Limits and Standards</button>
+				<div class="panel">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<button class="accordion">Food and Beverage</button>
+				<div class="panel">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<button class="accordion">Visitors and Event Guests</button>
+				<div class="panel">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<button class="accordion">Compliance Guidance for Event Hosts</button>
+				<div class="panel">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+				<button class="accordion">Daily Wellness Checks</button>
+				<div class="panel">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+
+			</div>
+		</div>
+
 		<div class="section" id="abvol">
 			<div class="row">
 				<span class="box_aboutus">
@@ -117,11 +158,7 @@
 			</div>
 		</div>
 
-		<!-- <div class="section" id="COVID">
-			<div id="COVID_sub">
-				<div class= "titles">!!Covid Guidelines!!</div>
-			</div>
-		</div> -->
+		
 
 
 		<div class="section" id="FAQ">
@@ -479,4 +516,20 @@
 		</div>
 	</footer>
 <script type="text/javascript" src="index.js"></script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </html>
