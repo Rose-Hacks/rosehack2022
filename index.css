@@ -41,7 +41,7 @@ body {
     background: #292E49;
     position: fixed;
     width:100%;
-    z-index: 2;
+    z-index: 3;
     /* margin-bottom: 2em; */
 
   }
@@ -167,17 +167,13 @@ h1, h2{
     font-family: 'harlow_solidregular';
     text-align: center;
     width:100%;
-    height:90%;
+    height:80%;
     font-size:8em;
     padding-top:6%;
     margin-bottom:0%;
-    /* background-image: url(Assets/HeroAnimation/newstars_a.png.png), linear-gradient(#292E49,#536976);
-    background-blend-mode: overlay; */
-    /* border-bottom:1.1em solid #363142; */
 }
 
 #HA .row{
-    /* background-image: url(Assets/HeroAnimation/newstars_a.png); */
     background-size: 100%;
 }
 
@@ -185,26 +181,11 @@ h1, h2{
     font-family: 'harlow_solidregular';
     text-align: center;
     border-radius: 0.4em;
-    /* background-image: url(Assets/HeroAnimation/newstars_a.png);
-    background-size: 100%; */
-    /* border: 0.1em dotted #fff4c3;
-    box-shadow:
-    0 0 7px rgb(161, 159, 159),
-    0 0 10px #000,
-    0 0 21px #fdeda7,
-    0 0 42px #fdeda7;  */
     margin-right: 10%;
     margin-left: 10%;
     padding-top: 0%;
     /* padding-bottom: 1%; */
 }
-
-.star_bg {
-    /* background-image: url(Assets/HeroAnimation/newstars_a.png); */
-    /* padding-top:50%;
-    margin-top:-55%; */
-}
-
 
 .maintitle{
     animation: flicker 1.5s infinite alternate;
@@ -249,11 +230,6 @@ h1, h2{
     margin-top:3%;
     
     color: #e81b23;
-    /* box-shadow:
-        0 0 7px #f0c0c1,
-        0 0 10px #f0c0c1,
-        0 0 21px #f3585e,
-        0 0 42px #f3585e; */
     background:#fffff0;
     border-radius: 0.4em;
 }
@@ -329,8 +305,15 @@ h1, h2{
 
 #herosign {
     margin-top:-140%;
-    margin-bottom: 40%;
+    margin-bottom: 10%;
     margin-left:26%;
+}
+
+#girl {
+    position: absolute;
+	left: 40%;
+	top: 91%;
+	opacity: 1;
 }
 
 #HA a{
@@ -370,6 +353,16 @@ h1, h2{
     /* background-image: url(Assets/HeroAnimation/background.png);
     background-size: 100%; */
 }
+/* #HA .animation1{
+    
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 100%;
+	    grid-template-columns: 100%;
+	margin: auto;
+    font-family: 'Poppins', sans-serif; 
+    
+} */
 
 
 .button_help {
@@ -817,11 +810,11 @@ p .box_aboutus{
     -moz-transition: 0.70s;
     -ms-transition: 0.70s;
     -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
 } */
 
 #team #row1{
@@ -948,6 +941,13 @@ footer #footer{
 @media only screen and (max-width: 1024px) {
     .navbar {
         visibility: hidden;
+    }
+
+    #girl {
+        position: absolute;
+        left: 50%;
+        top: 110%;
+        opacity: 1;
     }
 
     #header_title{
@@ -1110,9 +1110,24 @@ footer #footer{
     }
 
     #team .row{
-        grid-template-columns: 33% 34% 33%;
-        display:grid;
-        margin:auto;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 100%;
+            grid-template-columns: 100%;
+        margin: auto;
     }
 
+    #team{
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        font-family: 'Poppins', sans-serif; 
+        text-align: center;
+        font-size: 0.6em;
+        color: black;
+    }
+    
+
 }
+
