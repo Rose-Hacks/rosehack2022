@@ -744,6 +744,55 @@ p .box_aboutus{
 
 #sponsors span{
     margin:auto;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+#sponsors span:hover { 
+    transform: scale(1.1); 
+    /* background: #fdeda7; */
+}
+
+#sponsors .row1{
+    padding-right:2%;
+    padding-left:2%;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 33% 34% 33%;
+	    grid-template-columns: 33% 34% 33%;
+	margin: auto;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#sponsors .row2{
+    padding-right:2%;
+    padding-left:2%;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 33% 34% 33%;
+	    grid-template-columns: 33% 34% 33%;
+	margin: auto;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#sponsors .row3{
+    padding-right:2%;
+    padding-left:2%;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 33% 34% 33%;
+	    grid-template-columns: 33% 34% 33%;
+	margin: auto;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#sponsors .bourns{
+    background-color: #536976;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 1em;
 }
 
 #organizers {
