@@ -34,14 +34,19 @@ body {
 
     
 }
+
+/* #mlh-trust-badge {
+	padding-top:3%;
+} */
 /* NavBar */
 
 .navbar {
     overflow: hidden;
     background: #292E49;
     position: fixed;
-    width:100%;
+    width:88%;
     z-index: 3;
+    padding-right:12%;
     /* margin-bottom: 2em; */
 
   }
@@ -1149,9 +1154,9 @@ footer #footer{
         font-family: 'Poppins', sans-serif;
         font-size:0.21em;
         text-align: center;
-        padding-top: 0.5%;
-        padding-bottom: 0.5%;
-        margin-bottom:6%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-bottom:4%;
         
         /* color: #e81b23; */
         /* box-shadow:
@@ -1166,6 +1171,10 @@ footer #footer{
         transform: scale(1.1); 
         transition: all .3s linear;
         color: #fff4c3;
+    }
+
+    #reg{
+        padding: 5%;
     }
 
     #abvol .row {
