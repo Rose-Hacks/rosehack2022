@@ -802,6 +802,17 @@ p .box_aboutus{
     font-family: 'Poppins', sans-serif; 
 }
 
+#sponsors .row5{
+    padding-right:2%;
+    padding-left:2%;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 33% 34% 33%;
+	    grid-template-columns: 33% 34% 33%;
+	margin: auto;
+    font-family: 'Poppins', sans-serif; 
+}
+
 #sponsors .bourns{
     background-color: #536976;
     padding-left: 5%;
